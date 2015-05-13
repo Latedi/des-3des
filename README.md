@@ -8,17 +8,17 @@ DES accepts only keys of length 16.
 3DES accepts only keys of length 32.
 The length of input cipher text must be divisible by 16.
 
--h  display help message
+"-h" display help message
 
--t  unit test run
+"-t"  unit test run
 
--e <key> <msg>  encrypt using DES
+"-e" <key> <msg>  encrypt using DES
 
--e3 <key> <msg> encrypt using 3DES
+"-e3" <key> <msg> encrypt using 3DES
 
--d <key> <msg>  decrypt using DES
+"-d" <key> <msg>  decrypt using DES
 
--d3 <key> <msg> decrypt using 3DES
+"-d3" <key> <msg> decrypt using 3DES
 
 Examples:
 
